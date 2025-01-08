@@ -20,7 +20,7 @@ const RootLayout = () => {
     enter: (i) => ({
       top: "100%",
       transition: {
-        duration: 0.5,
+        duration: 0.4,
         delay: 0.1 * i,
       },
       transitionEnd: {
@@ -31,7 +31,7 @@ const RootLayout = () => {
     exit: (i) => ({
       height: "100%",
       transition: {
-        duration: 0.5,
+        duration: 0.4,
         delay: 0.1 * i,
       },
     }),
